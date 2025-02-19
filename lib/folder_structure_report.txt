@@ -1,0 +1,116 @@
+Folder Structure Report
+Date: Sun 16 Feb 2025 11:02:57 PM +06
+
+Folder: /media/arafat/Arafat/UrbanSound/data
+File Type Counts:
+  .aif: 58
+  .aiff: 28
+  .csv: 1302
+  .flac: 106
+  .json: 1302
+  .mp3: 181
+  .ogg: 4
+  .wav: 925
+
+Folder: /media/arafat/Arafat/UrbanSound/data/air_conditioner
+File Type Counts:
+  .aif: 2
+  .aiff: 1
+  .csv: 64
+  .flac: 12
+  .json: 64
+  .mp3: 10
+  .wav: 39
+
+Folder: /media/arafat/Arafat/UrbanSound/data/car_horn
+File Type Counts:
+  .aif: 2
+  .aiff: 3
+  .csv: 125
+  .flac: 4
+  .json: 125
+  .mp3: 11
+  .ogg: 1
+  .wav: 104
+
+Folder: /media/arafat/Arafat/UrbanSound/data/children_playing
+File Type Counts:
+  .aif: 9
+  .aiff: 5
+  .csv: 158
+  .flac: 6
+  .json: 158
+  .mp3: 16
+  .ogg: 1
+  .wav: 121
+
+Folder: /media/arafat/Arafat/UrbanSound/data/dog_bark
+File Type Counts:
+  .aif: 16
+  .aiff: 8
+  .csv: 337
+  .flac: 37
+  .json: 337
+  .mp3: 54
+  .ogg: 1
+  .wav: 221
+
+Folder: /media/arafat/Arafat/UrbanSound/data/drilling
+File Type Counts:
+  .aif: 3
+  .aiff: 5
+  .csv: 119
+  .flac: 12
+  .json: 119
+  .mp3: 11
+  .wav: 88
+
+Folder: /media/arafat/Arafat/UrbanSound/data/engine_idling
+File Type Counts:
+  .aif: 9
+  .aiff: 2
+  .csv: 97
+  .flac: 9
+  .json: 97
+  .mp3: 10
+  .wav: 67
+
+Folder: /media/arafat/Arafat/UrbanSound/data/gun_shot
+File Type Counts:
+  .aif: 2
+  .csv: 117
+  .flac: 4
+  .json: 117
+  .mp3: 17
+  .wav: 94
+
+Folder: /media/arafat/Arafat/UrbanSound/data/jackhammer
+File Type Counts:
+  .aif: 4
+  .aiff: 1
+  .csv: 45
+  .flac: 7
+  .json: 45
+  .mp3: 2
+  .wav: 31
+
+Folder: /media/arafat/Arafat/UrbanSound/data/siren
+File Type Counts:
+  .aif: 7
+  .csv: 74
+  .flac: 1
+  .json: 74
+  .mp3: 5
+  .ogg: 1
+  .wav: 60
+
+Folder: /media/arafat/Arafat/UrbanSound/data/street_music
+File Type Counts:
+  .aif: 4
+  .aiff: 3
+  .csv: 166
+  .flac: 14
+  .json: 166
+  .mp3: 45
+  .wav: 100
+
