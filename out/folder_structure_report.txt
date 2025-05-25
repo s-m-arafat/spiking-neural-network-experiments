@@ -1,0 +1,69 @@
+Folder Structure Report
+Date: Sat 22 Feb 2025 03:00:33 PM +06
+
+Folder: /media/arafat/Windows/dataset
+File Type Counts:
+  .csv: 1211
+  .json: 1211
+  .wav: 2895
+
+Folder: /media/arafat/Windows/dataset/air_conditioner
+File Type Counts:
+  .csv: 61
+  .json: 61
+  .wav: 62
+
+Folder: /media/arafat/Windows/dataset/car_horn
+File Type Counts:
+  .csv: 119
+  .json: 119
+  .wav: 239
+
+Folder: /media/arafat/Windows/dataset/children_playing
+File Type Counts:
+  .csv: 143
+  .json: 143
+  .wav: 152
+
+Folder: /media/arafat/Windows/dataset/dog_bark
+File Type Counts:
+  .csv: 312
+  .json: 312
+  .wav: 884
+
+Folder: /media/arafat/Windows/dataset/drilling
+File Type Counts:
+  .csv: 110
+  .json: 110
+  .wav: 378
+
+Folder: /media/arafat/Windows/dataset/engine_idling
+File Type Counts:
+  .csv: 86
+  .json: 86
+  .wav: 145
+
+Folder: /media/arafat/Windows/dataset/gun_shot
+File Type Counts:
+  .csv: 115
+  .json: 115
+  .wav: 360
+
+Folder: /media/arafat/Windows/dataset/jackhammer
+File Type Counts:
+  .csv: 40
+  .json: 40
+  .wav: 376
+
+Folder: /media/arafat/Windows/dataset/siren
+File Type Counts:
+  .csv: 66
+  .json: 66
+  .wav: 109
+
+Folder: /media/arafat/Windows/dataset/street_music
+File Type Counts:
+  .csv: 159
+  .json: 159
+  .wav: 190
+

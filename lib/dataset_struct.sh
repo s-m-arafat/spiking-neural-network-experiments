@@ -1,7 +1,8 @@
 #!/bin/bash
 
-ROOT_FOLDER="/media/arafat/Arafat/UrbanSound/data"
-REPORT_FILE="folder_structure_report.txt"
+# ROOT_FOLDER="/media/arafat/Arafat/UrbanSound/data"
+ROOT_FOLDER="/media/arafat/New Volume/UrbanSound8K_Organized"
+REPORT_FILE="../out/8k_organized.txt"
 
 echo "Folder Structure Report" > "$REPORT_FILE"
 echo "Date: $(date)" >> "$REPORT_FILE"

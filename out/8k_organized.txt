@@ -1,0 +1,47 @@
+Folder Structure Report
+Date: Mon 17 Mar 2025 07:48:20 PM +06
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized
+File Type Counts:
+  .wav: 8732
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/air_conditioner
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/car_horn
+File Type Counts:
+  .wav: 429
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/children_playing
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/dog_bark
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/drilling
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/engine_idling
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/gun_shot
+File Type Counts:
+  .wav: 374
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/jackhammer
+File Type Counts:
+  .wav: 1000
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/siren
+File Type Counts:
+  .wav: 929
+
+Folder: /media/arafat/New Volume/UrbanSound8K_Organized/street_music
+File Type Counts:
+  .wav: 1000
+

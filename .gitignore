@@ -2,4 +2,8 @@
 /env/** 
 /data/
 /data/**
+/data_8k/
+/data_8k/**
 /*.zip
+/.vscode/
+/.vscode/**

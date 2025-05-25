@@ -1,45 +1,63 @@
 import os
+import torch
 import numpy as np
-import librosa
-import librosa.display
 import matplotlib.pyplot as plt
+import librosa
 
 def generate_stft_plot(audio_path, output_path):
     # Load audio file
     audio, sr = librosa.load(audio_path, sr=None)
     
+    # Convert audio to PyTorch tensor
+    audio_tensor = torch.from_numpy(audio).float()
+    
+    # Compute STFT using PyTorch
+    n_fft = 2048
+    hop_length = n_fft // 2
+    window = torch.hann_window(n_fft)
+    
     # Compute STFT
-    n_fft = 512
-    hop_length = 256
-    win_length = 512
-    stft = librosa.stft(audio, n_fft=n_fft, hop_length=hop_length, win_length=win_length, window='hann')
-    stft = librosa.amplitude_to_db(abs(stft), ref=np.max)
+    stft = torch.stft(
+        audio_tensor,
+        n_fft,
+        hop_length,
+        n_fft,
+        window,
+        center=True,
+        pad_mode='reflect',
+        normalized=True,
+        onesided=True,
+        return_complex=True
+    )
+    
+    # Get the magnitude of the complex STFT values
+    stft_magnitude = torch.abs(stft)
+    stft_magnitude = stft_magnitude.squeeze().numpy()
     
     # Create plot
     plt.figure(figsize=(10, 5))
-    librosa.display.specshow(stft, sr=sr, hop_length=hop_length, x_axis='time', y_axis='log', cmap='viridis', vmin=-80, vmax=0)
-    
-    # Remove all labels, ticks, and scaling
-    plt.gca().set_xticks([])
-    plt.gca().set_yticks([])
-    plt.gca().set_xlabel('')
-    plt.gca().set_ylabel('')
-    plt.gca().set_title('')
     plt.gca().axis('off')  # Remove all axes
+    
+    # Plot the STFT
+    plt.imshow(librosa.amplitude_to_db(stft_magnitude, ref=np.max),
+                cmap='gray',
+                aspect='auto',
+                origin='lower')
     
     # Save plot
     plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
     plt.close()
 
 def main():
-    input_dir = "../data/urban_sound"
-    output_dir = '../data/stft_plots'
+    input_dir = "/media/arafat/New Volume/UrbanSound8K_Organized"
+    output_dir = '../data_8k/stft_plots'
     
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
     
     # Walk through input directory
     for root, dirs, files in os.walk(input_dir):
+        print(f"Processing {root}")
         for file in files:
             if file.endswith('.wav'):
                 input_path = os.path.join(root, file)
